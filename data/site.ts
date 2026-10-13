@@ -34,22 +34,35 @@ export const site = {
   stack: [
     {
       title: "Frontend",
-      items: ["Vue 3", "Nuxt", "React", "Next", "TypeScript", "Tailwind CSS"],
+      items: [
+        { name: "Vue 3", level: 80 },
+        { name: "Nuxt", level: 85 },
+        { name: "React", level: 50 },
+        { name: "Next", level: 45 },
+        { name: "TypeScript", level: 70 },
+        { name: "Tailwind CSS", level: 80 },
+      ],
     },
     {
       title: "Backend & Database",
       items: [
-        "Node.js",
-        "REST APIs",
-        "PostgreSQL",
-        "Prisma",
-        "Fastify",
-        "Docker",
+        { name: "Node.js", level: 75 },
+        { name: "REST APIs", level: 80 },
+        { name: "PostgreSQL", level: 75 },
+        { name: "Prisma", level: 75 },
+        { name: "Fastify", level: 55 },
+        { name: "Docker", level: 35 },
       ],
     },
     {
       title: "AI & Machine Learning",
-      items: ["RAG", "LLM APIs", "Qdrant", "Python", "LightGBM"],
+      items: [
+        { name: "RAG", level: 75 },
+        { name: "LLM APIs", level: 70 },
+        { name: "Qdrant", level: 65 },
+        { name: "Python", level: 70 },
+        { name: "LightGBM", level: 60 },
+      ],
     },
   ],
   projects: [

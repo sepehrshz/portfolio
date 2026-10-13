@@ -6,8 +6,8 @@
     <SiteNav />
     <main id="main">
       <HeroSection />
-      <ProjectsSection />
       <AboutSection />
+      <ProjectsSection />
       <ContactSection />
     </main>
     <SiteFooter />
