@@ -1,0 +1,5 @@
+:8080 {
+    root * /var/www/portfolio
+    encode gzip
+    file_server
+}
